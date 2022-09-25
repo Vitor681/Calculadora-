@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 int main (void) {
-    printf ("\n\n\n - Vitor de Souza\n - Analise e desenvolvimento de sistemas\n - Universidade LaSalle Canoas-RS\n - Matricula: 20221708\n\n\n");
+    printf ("\n\n\n - Vitor de Souza\n - Analise e desenvolvimento de sistemas\n - Universidade LaSalle Canoas-RS\n - Matricula: 20221708\n - Usuario no GitHub: Vitor681\n\n\n");
     
     int opcao;
     do{
@@ -14,9 +14,9 @@ int main (void) {
     if (opcao >0 && <=6) {
     if (opcao == 6) {
     float numero;
-    printf ("escolha o numero que deseje descobrir a raiz quadrada\n");
+    printf ("digite o numero que deseje descobrir a raiz quadrada\n");
     scanf ("%f", &numero);
-    printf ("raiz quadrada: %0.3f\n\n", sqrt(numero));
+    printf ("resultado da raiz quadrada: %0.3f\n\n", sqrt(numero));
     }
     else {     
     switch (opcao) {
@@ -27,7 +27,7 @@ int main (void) {
             scanf ("%f", &nmr1);
             printf ("digite a parcela 2\n");
             scanf ("%f", &nmr2);
-                printf ("soma: %0.2f\n\n", nmr1 + nmr2);
+                printf ("resultado da soma: %0.2f\n\n", nmr1 + nmr2);
                 
     break;
 
@@ -37,7 +37,7 @@ int main (void) {
             scanf ("%f", &nmr3);
             printf ("digite o subtrativo\n");
             scanf ("%f", &nmr4);
-                printf ("subtracao: %0.2f\n\n", nmr3 - nmr4);
+                printf ("resultado da subtracao: %0.2f\n\n", nmr3 - nmr4);
     break;
 
     case 3: ;
@@ -46,7 +46,7 @@ int main (void) {
             scanf ("%f", &nmr5);
             printf ("digite o fator 2\n");
             scanf ("%f", &nmr6);
-                printf ("multiplicacao: %0.2f\n\n", nmr5 * nmr6);
+                printf ("resultado da multiplicacao: %0.2f\n\n", nmr5 * nmr6);
     break;
     
     case 4: ;
@@ -59,7 +59,7 @@ int main (void) {
                 printf ("Nao e possivel fazer divisao por 0! Por favor digite um numero valido: \n");
                 scanf ("%f", &nmr8);
         }
-        printf ("divisao: %0.2f\n\n", nmr7 / nmr8);
+        printf ("resultado da divisao: %0.2f\n\n", nmr7 / nmr8);
     break;
     
     case 5: ; 
@@ -68,7 +68,7 @@ int main (void) {
             scanf ("%f", &nmr10);
             printf ("digite o expoente\n");
             scanf ("%f", &nmr11);
-                printf ("potencia: %0.2f\n\n", pow(nmr10, nmr11));
+                printf ("resultado da potencia: %0.2f\n\n", pow(nmr10, nmr11));
     break;
     default: 
     printf ("opcao invalida! Por favor digite uma opcao valida\n\n");
